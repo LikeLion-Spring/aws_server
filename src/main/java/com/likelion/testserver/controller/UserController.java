@@ -26,7 +26,7 @@ public class UserController {
         return "home";
     }
 
-    @GetMapping("/register")
+    /*@GetMapping("/register")
     public String showRegister() {
         return "register";
     }
@@ -42,5 +42,5 @@ public class UserController {
     public String registerUser(@ModelAttribute User user) {
         userService.saveUser(user);
         return "redirect:/users";  // 성공적으로 등록 후 사용자 목록 페이지로 리다이렉트
-    }
+    }*/
 }
