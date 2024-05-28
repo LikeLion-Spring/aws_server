@@ -37,6 +37,7 @@ public class UserController {
         return "users";
     }
 
+
     @PostMapping("/users/register")
     public String registerUser(@ModelAttribute User user) {
         userService.saveUser(user);
