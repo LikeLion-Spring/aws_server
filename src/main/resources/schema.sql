@@ -3,4 +3,4 @@ CREATE TABLE IF NOT EXISTS USERS (
                                         name VARCHAR(255) NOT NULL,
                                         email VARCHAR(255) NOT NULL
 );
-INSERT INTO USERS (id, name, email) VALUES (1, 'test','Example');
+INSERT INTO USERS (name, email) VALUES ('test','Example');
